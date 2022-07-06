@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: poppips;
+}
+
+
+.container1 header {
+    text-align: center;
+    padding: 30px;
+    background: #004080;
+    color: white;
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+
+}
+
+.image1 img {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height: 65px;
+    max-width: 550px;
+    min-width: 390px;
+
+
+
+}
+
+body {
+
+    background-color: #C0D6DF;
+    min-width: 400px;
+}
+
+.container1 {
+    background-color: white;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+   
+    margin-bottom: 40px;
+
+}
+
+.container1 .formulaire {
+    padding: 30px;
+    
+}
+
+span {
+    color: red;
+}
+
+.container1 .formulaire .little-title {
+    color: #004080;
+}
+
+.container1 .formulaire .champ {
+    margin-top: 35px;
+}
+
+.container1 .formulaire .champ .name-champ {
+    font-size: medium;
+
+}
+
+.efficace {
+    margin-top: 20px;
+}
+
+.efficace .efficacite-left {
+    color: #09a4cf;
+}
+
+select {
+    margin-bottom: 20px;
+    width: 35%;
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    padding: 17px 20px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 500;
+    color: #222;
+    cursor: pointer;
+}
+
+select option:hover {
+    color: white;
+    padding-bottom: 10px;
+    background-color: #004080;
+
+
+}
+
+.input-form {
+    margin-bottom: 20px;
+    width: 100%;
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    padding: 17px 20px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 500;
+    color: #222;
+
+}
+
+.check {
+    margin-top: 17px;
+    display: flex;
+
+}
+
+.check input {
+
+    height: 16px;
+    width: 16px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.check label {
+    margin-top: 3px;
+}
+
+textarea {
+    margin-bottom: 20px;
+    width: 100%;
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    padding: 17px 20px;
+    height: 90px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 500;
+    color: #222;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+td {
+    border: 1px solid black;
+    padding: 10px;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    
+}
+
+.envoyer input {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 167px;
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    padding: 17px 20px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 500;
+    background: #004080;
+    color: white;
+    cursor: pointer;
+    margin-right: 70px;
+    
+
+
+}
+.envoyer input:hover{
+    width:168px;
+    letter-spacing: 1px;
+    padding: 18px 21px;
+}
+
+
+.logout input {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 167px;
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    padding: 17px 20px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 500;
+    background: #004080;
+    color: white;
+    cursor: pointer;
+
+
+}
+
+.sub {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.validation1 {
+    color: #09a4cf;
+}
+
+input[type="radio"].radio-tab {
+    display: none;
+}
+
+input[type="radio"].radio-tab+label {
+    border: 1px solid #000;
+    padding: 1.1% 3.7%;
+
+    cursor: pointer;
+}
+
+input[type="radio"].radio-tab:checked+label {
+    border: 1px solid #000;
+    background: #004080;
+
+    padding: 1.2% 3.97%;
+    color: white;
+    cursor: pointer;
+
+
+
+}
+
+
+/* input[type="radio"].radio-tab+ label {
+    border: 1px solid #000;
+    padding-left: 37px;
+    padding-right: 37px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+  }
+  */

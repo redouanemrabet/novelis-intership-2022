@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: poppips;
+}
+
+body {
+    background-color:  #C0D6DF;
+    
+}
+
+.container {
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    background-color: white;
+    max-width: 480px;
+    min-width:200px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin: 0 auto;
+    height: 480px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 140px;
+    align-items: center;
+    justify-content: center;
+}
+.image img{
+    margin-top: 50px;
+    margin-bottom: -100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width: 4500px;
+    
+    height: 70px;
+   
+   
+
+}
+
+
+.signup-content {
+    background-color: #fff;
+    padding: 50px 85px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -o-border-radius: 10px;
+    -ms-border-radius: 10px;
+    padding: 20px 85px;
+    display: flex;
+     max-width: 440px;
+    flex-direction: column;
+    height: 200px;
+}
+
+.container h1 {
+    text-align: center;
+    padding-top: 60px;
+    
+    color: #1b3c7e;
+}
+
+input {
+    margin-bottom: 20px;
+    width: 100%;
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    padding: 17px 20px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 500;
+    color: #222;
+}
+.form-submit {
+    width: 100%;
+    cursor: pointer;
+  
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    padding: 17px 20px;
+  
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: Poppins;
+    border: none;
+    background-color:  	#1b3c7e;
+    margin-top: 20px;
+  }
+  
+  .loginhere {
+    color: gray;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 13px;
+    margin-bottom: 5px;
+    margin-left: -30px;
+    font-size: large;
+
+  }
+  .loginhere-link {
+    font-weight: 700;
+    color: #1b3c7e;
+    text-decoration: none;
+  }
+
+  .validation{
+    color :red;
+  }
+  form {
+    display: block;
+    margin-top: 0em;
+}
